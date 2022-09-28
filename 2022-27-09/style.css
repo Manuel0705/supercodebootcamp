@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, p, {
+    font-family:
+}
+
+li {
+    font-size: 0.8rem;
+    line-height: 1.5em;
+}
+
+section {
+    border: 2px solid black;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+
+
+.dogs {
+    list-style-type: "🐶";
+}
+
+.cats {
+    list-style-type: "🐱";
+}
+
+
+.parrots {
+    list-style-type: "🐤";
+}
+.reptiles .snakes {
+    list-style-type: "🐍";
+}
+
+.reptiles .lizzards {
+    list-style-type: "🦎";
+}
+
+
+ 
+
+/* .Snakes {
+    🐍
+} */
