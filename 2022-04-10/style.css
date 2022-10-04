@@ -1,0 +1,31 @@
+
+
+label {
+    display: block;
+}
+
+.Name {
+    display: flex;
+    margin-right: 10px;
+}
+
+.eingabefeld1 {
+    margin-right: 5px;
+    
+}
+
+.eingabefeld2 {
+    text-align: center right;
+    
+}
+
+.Name label {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+     width: 400px;
+    color: white;
+    background-color: darkcyan;
+}
