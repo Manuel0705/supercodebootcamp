@@ -62,8 +62,9 @@ input {
     padding-left: 5px;
     padding-top: 5px;
     font-family: sans-serif;
-
-}
+    
+    resize: none;
+    }
 
 button {
     height: 64px;
