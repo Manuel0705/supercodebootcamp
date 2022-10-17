@@ -218,14 +218,14 @@ footer h6 {
 }
 
 footer img {
-    width: 36%;
-    
+    /* width: 36%; */
+    max-height: 170px;
 }
 
 footer article {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
 }
 
