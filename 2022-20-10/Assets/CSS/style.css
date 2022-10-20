@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(60, 158, 67);
+    text-align: center;
+    line-height: 150px;
+    font-size: 24px;
+    /* transition: all 0.5s; */
+  }
+  
+  
+  /* Übung 2 */
+  /* Das Element mit der Klasse "width" soll beim Hovern 200px breit werden (Dauer: eine halbe Sekunde) und die Hintergrundfarbe soll rot werden (Dauer: zwei Sekunden). */
+  
+  .width {
+    transition: width 0.5s, background-color 2s;
+  }
+  
+  .width:hover {
+    width: 200px;
+    background-color: red;
+    /* Hier funktioniert die Transition nicht! */
+    /* display: none; */
+  }
+  
+  
