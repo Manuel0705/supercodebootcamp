@@ -16,27 +16,27 @@
   
   div {
     height: 150px;
-    width: 150px;
-    background-color: rgb(60, 158, 67);
+    width: 500px;
+    background-color: white;
+    border: 1px solid black;
     text-align: center;
     line-height: 150px;
     font-size: 24px;
-    /* transition: all 0.5s; */
-  }
+    }
+    
   
   
-  /* Übung 2 */
-  /* Das Element mit der Klasse "width" soll beim Hovern 200px breit werden (Dauer: eine halbe Sekunde) und die Hintergrundfarbe soll rot werden (Dauer: zwei Sekunden). */
+  
   
   .width {
-    transition: width 0.5s, background-color 2s;
+    
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 0 0 0 white inset;
   }
   
   .width:hover {
-    width: 200px;
-    background-color: red;
-    /* Hier funktioniert die Transition nicht! */
-    /* display: none; */
+    transform-origin: 20%;
+    box-shadow: 500px 0 0 0 violet inset;
   }
   
   
