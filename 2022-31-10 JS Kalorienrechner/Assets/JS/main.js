@@ -18,16 +18,16 @@
 const Berechnen = (event)=>{
     event.preventDefault();
     // ====== Eingabe zu Größe Alter Gewicht ========
-    let körperGroeße = Number(document.querySelector("#height-input").value);
-    let alter = Number(document.querySelector("#age-input").value);
-    let gewicht = Number(document.querySelector("#weight-input").value);
+    const körperGroeße = Number(document.querySelector("#height-input").value);
+    const alter = Number(document.querySelector("#age-input").value);
+    const gewicht = Number(document.querySelector("#weight-input").value);
 
     // ====== Radiobuttons für Weiblich und Männlich ======
-    let weiblich = document.querySelector("#radio-weiblich").value;
-    let männlich = document.querySelector("#radio-männlich").value;
+    const weiblich = document.querySelector("#radio-weiblich").checked;
+    const männlich = document.querySelector("#radio-männlich").checked;
 
     // ===== Auswahl Arbeits / Freizeitaktivität ====
-    let selectId = document.querySelector("#select-activity").value;
+    const selectId = document.querySelector("#select-activity").value;
 
     // =========== Berechnung ===========================================
 
@@ -54,35 +54,35 @@ const Berechnen = (event)=>{
     Number(document.querySelector("#select-activity").value) * kjMännerGrundumsatz;
 
     // Output Berechnung Grundumsatz
-    let grundwertWeiblich = document.querySelector("#grundUmsatzWeiblich");
+    const grundwertWeiblich = document.querySelector("#grundUmsatzWeiblich");
     
     
-    let grundwertMännlich = document.querySelector("#grundUmsatzMännlich");
-
+    const grundwertMännlich = document.querySelector("#grundUmsatzMännlich");
+    console.log(grundwertMännlich);
     // Output Berechnung Gesamtumsatz
-    let gesamtwertWeiblich = document.querySelector("#gesamtUmsatzWeiblich");
+    const gesamtwertWeiblich = document.querySelector("#gesamtUmsatzWeiblich");
     
     
-    let gesamtwertMännlich = document.querySelector("#gesamtUmsatzMännlich");
+    const gesamtwertMännlich = document.querySelector("#gesamtUmsatzMännlich");
     
     
 
     // ============== if else Bereich ===============================
 
-    if (userInputRadioFemale) {
-        outputKcalGrundumsatz.innerHTML = kcalFrauenGrundumsatz.toFixed(3);
-        outputKjGrundumsatz.innerHTML = kjFrauenGrundumsatz.toFixed(3);
-        outputKcalGesamtumsatz.innerHTML = kcalFrauenGesamtumsatz.toFixed(3);
-        outputKjGesamtumsatz.innerHTML = kjFrauenGesamtumsatz.toFixed(3);
-      } else if (userInputRadioMale) {
-        outputKcalGrundumsatz.innerHTML = kcalMännerGrundumsatz.toFixed(3);
-        outputKjGrundumsatz.innerHTML = kjMännerGrundumsatz.toFixed(3);
-        outputKcalGesamtumsatz.innerHTML = kcalMännerGesamtumsatz.toFixed(3);
-        outputKjGesamtumsatz.innerHTML = kjMännerGesamtumsatz.toFixed(3);
+    if (weiblich) {
+        grundwertWeiblich.innerHTML = kcalFrauenGrundumsatz.toFixed(3);
+        // outputKjGrundumsatz.innerHTML = kjFrauenGrundumsatz.toFixed(3);
+        gesamtwertWeiblich.innerHTML = kcalFrauenGesamtumsatz.toFixed(3);
+        // outputKjGesamtumsatz.innerHTML = kjFrauenGesamtumsatz.toFixed(3);
+      } else if (männlich) {
+        // outputKcalGrundumsatz.innerHTML = kcalMännerGrundumsatz.toFixed(3);
+        grundwertMännlich.innerHTML = kjMännerGrundumsatz.toFixed(3);
+        gesamtwertMännlich.innerHTML = kcalMännerGesamtumsatz.toFixed(3);
+        // outputKjGesamtumsatz.innerHTML = kjMännerGesamtumsatz.toFixed(3);
       }
     }
     
-}
+
     
     
     
