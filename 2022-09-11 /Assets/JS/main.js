@@ -77,3 +77,26 @@
 // Nutze Google, um zu lernen wie man Leerzeichen in Zeichenketten entfernt.
 
 // =================== 3_1 ========================================
+
+let count = 0;
+let demo = document.getElementById(`demo`);
+
+const changeBackground = (color) => {
+  document.body.style.backgroundColor = color;
+  count++;
+  demo.innerHTML = `Du hast die Farbe ${count} schon geändert`;
+};
+
+const changeHandle = () => {
+  console.log("change the range");
+
+  let rgb = `rgb(${(red, value)}, ${green.value}, ${blue.value})`;
+  console.log(rgb);
+  document.body.style.backgroundColor = rgb;
+};
+
+const decimaToHex = () => {
+  let redToHex = Number(red.value).toString(16);
+  let greenToHex = Number(green).toString(16);
+  let blueToHex = Number(blue.value).toString(16);
+};

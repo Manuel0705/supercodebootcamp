@@ -1,0 +1,49 @@
+/* body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  background: #3fc5f0;
+  color: #eef5b2;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background: #42dee1;
+  color: #eef5b2;
+  font-weight: bold;
+}
+
+output {
+  display: block;
+  padding: 20px;
+  font-weight: bold;
+} */
+
+/* ========================== 2_8 ================================ */
+
+body {
+  background-color: #999;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+div {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
