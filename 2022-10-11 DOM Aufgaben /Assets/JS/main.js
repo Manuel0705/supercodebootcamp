@@ -29,15 +29,20 @@
 // console.log(document.body.firstElementChild.children[1].innerHTML);
 // console.log(document.body.firstElementChild.children[5].innerHTML);
 
-// ================================================================================================
+// ========================= 2_7 =================================================================
+
+console.log("test");
+
 // ========================== 2_8 =====================================
 
-const button = document.querySelector("#enter");
-const itemInput = document.querySelector("#userinput");
+// const button = document.querySelector("#enter");
+// const itemInput = document.querySelector("#userinput");
 
-button.addEventListener("click", (event) => {
-  event.preventDefault();
-  let li = document.createElement("li");
-  li.textContent = itemInput.value;
-  document.body.firstElementChild.lastElementChild.appendChild(li);
-});
+// button.addEventListener("click", (event) => {
+//   event.preventDefault();
+//   let li = document.createElement("li");
+//   li.textContent = itemInput.value;
+//   document.body.firstElementChild.lastElementChild.appendChild(li);
+// });
+
+// ==============================================================

@@ -19,10 +19,11 @@ output {
   padding: 20px;
   font-weight: bold;
 } */
+/* ========================== 2_7 ================================ */
 
 /* ========================== 2_8 ================================ */
 
-body {
+/* body {
   background-color: #999;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
@@ -46,4 +47,4 @@ input[type="submit"] {
   margin: 5px;
   cursor: pointer;
   border-radius: 5px;
-}
+} */
