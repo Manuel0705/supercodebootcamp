@@ -79,14 +79,11 @@ let unserLager = {
   },
 };
 
-for (let i in unserLager.schrank) {
-  console.log(unserLager.schrank["Obere Schublade"].Ordner2);
-  for (let i in unserLager) {
-    console.log(unserLager.schrank["Untere Schublade"]);
-    for (let i in unserLager) {
-      console.log(unserLager.schreibtisch.schublade);
-    }
-  }
-}
+// for (let i in unserLager.schrank) {
+console.log(unserLager.schrank["Obere Schublade"].Ordner2);
+//   for (let i in unserLager) {
+console.log(unserLager.schrank["Untere Schublade"]);
+// for (let i in unserLager) {
+console.log(unserLager.schreibtisch.schublade);
 
 // ================================================================
