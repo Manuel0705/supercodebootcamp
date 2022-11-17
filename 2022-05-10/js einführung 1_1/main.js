@@ -217,7 +217,35 @@
 // ========================== 1_2 intro function ================================
 
 // function intro2(paramName) {
-//   let varName = SuperCoder;
+//   let varName = "SuperCoder";
 //   console.log("Hi," + varName + ". Mein Name ist" + paramName + " .");
 // }
-// intro2(); // Fehlermeldung in der console!
+// intro2("Manu");
+
+// ========================== 1_3 intro function ================================
+
+// function intro3(name, stadt, alter) {
+//   let parmName = "Manuel";
+//   let paramStadt = "Dormagen";
+//   let paramAlter = "42";
+//   console.log(
+//     "Hallo, mein Name ist  " +
+//       parmName +
+//       ". " +
+//       "Ich bin " +
+//       paramAlter +
+//       " Jahre alt. " +
+//       "Ich komme aus " +
+//       paramStadt +
+//       "."
+//   );
+// }
+// intro3("hi");
+
+// ==================== 1_5 function multiplikation und division ================================
+
+function math(a, b) {
+  console.log(5 * 5);
+  console.log(30 / 5);
+}
+math(10, 2000);
