@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Gilda";
+    src: url(../fonts/GildaDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "Maven";
+    src: url(../fonts/MavenPro-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Maven";
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 1.6rem;
+    letter-spacing: 0.4rem;
+    max-width: 100px;
+
+    font-weight: 100;
+}
+
+h2 {
+    font-family: "Gilda";
+    font-size: 4rem;
+    
+}
+h3 {
+    margin: 10px 0;
+    font-size: 4rem;
+    color: black;
+    font-family: "Gilda";
+    font-weight: bolder;
+}
+
+header {
+    padding: 1.5rem;
+    background-color: #333;
+    color: white;
+    height: 70vh;
+    min-height: 700px;
+}
+div.header {
+    background-image: linear-gradient(to top right, #8507e1, #09835e);
+    padding: 1rem;
+    margin: 20vh auto 0;
+    width: 180px;
+}
+div.header:hover {
+    background-image: linear-gradient(to top right, #c81c45, #8507e1);
+}
+.nav ul li {
+    margin-top: 10vh;
+    text-decoration: none;   
+}
+
+ul {
+    float: right;
+    text-align: right;
+}
+li {
+    color: white;
+    font-size: 1.4rem;
+    list-style: none;
+    padding: 0.4rem;
+}
+
+section {
+    height: 70vh;
+    min-height: 700px;
+}
+section.main {
+    padding: 3vw 0;
+
+    margin-left: 10vw;
+    margin-top: 35vh;
+    background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    background-repeat: no-repeat;
+}
+
+div.main {
+    margin-top: 5vh;
+    max-width: 30vw;
+}
+section.image {
+    padding: 10vh;
+}
+img {
+    width: 80vh;
+}
+p.body {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 800px;
+    background-image: url("Plants_img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+p {
+    color: rgb(150, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.linkbox1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+.linkbox2 a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: right;
+    margin-top: 180px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.Deco {
+    background-color: aqua;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px double black;
+    
+
+
+}
+
+.footer {
+    background-color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+

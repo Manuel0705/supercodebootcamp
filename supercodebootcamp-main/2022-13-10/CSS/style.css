@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  section {
+    min-height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .big {
+    display: flex;
+    flex-direction: column;
+    font-size: 30rem;
+    font-weight: 900;
+    color: red;
+  }

@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  } */
+
+html {
+    font-size: 62.5%;
+    }
+
+/* body {
+        max-width: 1440px;
+    } */
+
+header {
+    background-color: #EFE8D7;
+}
+
+section {
+    background-color: #F4C4C4;
+}
+
+.section2 {
+    background-color: #DEB873;
+}
+
+footer {
+    background-color: #D2D2D2;
+}
+ p {
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+ /* Bis hier allgemeine Einstellungen */
+ /*Ab hier header-Einstellungen */
+
+ .kopfzeile {
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+    top: 0;
+    left: 0;
+    color: #042A5A;
+    /* text-decoration: none; */
+    list-style: none;
+    border-bottom: 1px;
+ }
+ /* bis hierhin Kopfzeile */
+
+ header h1 {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    align-items: center;
+    color: #042A5A;
+    border-bottom: 2px solid #042A5A;
+    font-size:10rem;
+    }
+
+    /* header h1 span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: -9px;
+    } */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    header p {
+        display: flex;
+        justify-content: center;
+        color: #042A5A;
+        padding-bottom: 5rem;
+    }
+
+    /* bis hierhin header */
+
+main .section1 h1 {
+    display: flex;
+    align-items: center;
+    color: #282B29;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    font-size: 10rem;
+}
+
+main .section1 p {
+    display: flex;
+    justify-content: right;
+    color: #282B29;
+    line-height: 200%;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+
+}
+
+main .section1 h6 {
+    display: flex;
+    justify-content: right;
+    color: #282B29;
+    font-size: 0.8rem;
+    padding-right: 3rem;
+    }
+
+main .section1 ol span {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #282B29;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+    text-align: right;
+}    
+
+main .section1 ol {
+    padding-left: 60rem;
+    padding-bottom: 5rem;
+    color: #282B29;
+
+
+
+}
+
+main .section1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 86rem;
+    padding-bottom: 5rem;
+}
+
+/* ab hier nächster Bereich */
+
+/* main {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+main .section2 h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #7D2222;
+    text-align: right;
+    padding-top: 5rem;
+    padding-right: 0.2rem;
+    padding-bottom: 2rem;
+    font-size: 10rem;
+}
+
+main .section2 p {
+    display: flex;
+    align-items: center;
+    color: #7D2222;
+    padding-left: 5rem;
+    padding-bottom: 10rem;
+}
+
+main .section2 article {
+    display: flex;
+    font-size: 5rem;
+    padding-bottom: 15rem;
+    
+}
+
+
+main .section2 .article-text-right {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 4rem;
+}
+
+/* Bis hier Main */
+/* Ab hier footer */
+
+footer h1 {
+    display: flex;
+    align-items: center;
+    color: #388883;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    font-size: 10rem;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #388883;
+    line-height: 200%;
+    padding-bottom: 5rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    padding-bottom: 5rem;
+    padding-right: 3rem;
+    list-style: none;
+    
+}
+
+footer ul a {
+    text-decoration: none;
+    line-height: 200%;
+    color: #388883;
+}

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: cinzel;
+    src: url(../2022-28-09/fonts/cinzel);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../2022-28-09/fonts/poppins);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: Cinzel;
+}
+
+h2 {
+    font-family: cinzel;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+.backgroundpic {
+    background-image: url(./img/background.avif);
+    height: 100vh;
+    max-height: 50rem;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6rem;
+}
+
+.backgroundpic div {
+    font-family: cinzel;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    padding: 14% 0 0 0;
+}
+
+.section-bilder img {
+    padding: 0 0 5rem 5rem;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 3rem;
+}
+
+.section-bilder {
+    padding: 0 5rem;
+    margin-bottom: 5rem;
+}
+
+h3 {
+    font-family: cinzel;
+    margin-bottom: 8rem;
+    text-align: center;
+
+}
+
+.section-choose p {
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+section .tour-dates h3 {
+    text-align: center;
+
+}
+
+.tour-dates {
+    margin-bottom: 12rem;
+    padding-left: 5rem;
+
+}
+
+.tour-dates p:nth-of-type(1)::after{
+    content: "- SOLD OUT";
+    color: red;
+}
+
+.tour-dates p:nth-of-type(2)::after{
+    content: "- SOLD OUT";
+    color: red;
+}
+
+.tour-dates p:nth-of-type(3)::after{
+    content: "- SOLD OUT";
+    color: red;
+}
+
+.tour-dates p:nth-of-type(4)::after{
+    content: "- SOLD OUT";
+    color: red;
+}
+
+.tour-dates p:nth-of-type(5)::after{
+    content: "- SOLD OUT";
+    color: green;
+}
+
+.tour-dates p:nth-of-type(6)::after{
+    content: "- SOLD OUT";
+    color: green;
+}
+
+footer {
+    border-top: 2px solid #ccc;
+}
+
+
+

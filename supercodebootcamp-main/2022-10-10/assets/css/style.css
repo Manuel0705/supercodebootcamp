@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: RockSalt;
+    src: url(../fonts/RockSalt-Regular.ttf);
+}
+
+
+
+/* ============================ header ================================ */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-family: RockSalt;
+    
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.headercontent {
+    display: flex;
+    
+    }
+
+.headercontent .img-content {
+    background-image: url(../img/dog_catching_snack.jpg);
+    width: 50%;
+    height: 504px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headercontent .img-content h2 {
+    display: none;
+}
+
+.text-content h2 {
+    color: white;
+    width: 200px;
+}
+
+.text-content {
+    background-color: rosybrown;
+    height: 504px;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+}
+
+/* =========================== main ==================================== */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: rosybrown;
+    font-size: 40px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    
+
+}
+
+.container h3 {
+    display: flex;
+    justify-content: space-around;
+    color: rosybrown;
+}
+
+
+
+.behälter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+    
+    
+}
+
+
+
+.behälter1 {
+    background-image: url(../img/dog_eating_cookies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 280px;
+}
+
+.behälter2 {
+    background-image: url(../img/dog_bowl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 280px;
+}
+
+.behälter3  {
+    
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rosybrown;
+    color: white;
+}
+
+/* ================================== footer =================================== */
+
+footer {
+    background-color: rgb(38, 37, 37);
+}
+
+.footer-content1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.footer-content1 p {
+    text-align: center;
+    color: white;
+}
+
+.footer-content1 a {
+    text-decoration: none;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 13px;
+    color: grey;
+}
+
+.footer-content1 a:nth-of-type(2) {
+    background-color: rosybrown;
+    color: white;
+}
+
+.footer-content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer-content2 div {
+    display: flex;
+    align-items: center;
+}
+
+/* ================================================================================ */
+/* =========================== Tablet-version ===================================== */
+
+
+@media screen and (max-width: 768px) {
+
+    /* ================= header ==================== */
+
+    .text-content {
+        display: none;
+    }
+
+    
+
+    .headercontent .img-content {
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+        
+        
+    }
+
+    .headercontent .img-content h2 {
+        display: block;
+        width: 200px;
+    }
+
+    /* ==================== main =================== */
+
+    main h2 {
+        display: flex;
+        justify-content: center;
+        background-color: #df8480;
+        color: white;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        padding-top: 50px;
+        gap: 30px;
+    }
+
+    .container h3 {
+        font-size: 40px;
+    }
+
+    .container1 {
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+        font-family: Nunito;
+    }
+
+    .container2 {
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+        font-family: Nunito;
+    }
+
+    .container3 {
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+        font-family: Nunito;
+    }
+
+    .behälter3 {
+        /* display: wrap; */
+    }
+
+    /* ======================= footer ============================= */
+
+}
+
+
+
+
+

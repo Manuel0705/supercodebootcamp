@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulare</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+        <p>NAME</p>
+      <div class="Name">
+        
+        
+        <input class="eingabefeld1" type="text" name="name-input" required placeholder="Name"id="name-input" />
+
+        
+        <input class="eingabefeld2"
+          type="text"
+          name="name-input"
+          required
+          placeholder="Nachname"
+          id="name-input"
+        />
+      </div>
+
+      <div>
+        <label for="email-input">Email</label>
+        <input type="email" name="email-input" id="email-input" required />
+      </div>
+
+      <div>
+        <label for="select-input">THEMA</label>
+        <select name="select-input" id="select-input">
+          <option value="pizza">General</option>
+          <option value="pommes" selected>Advertise</option>
+          <option value="pommes" selected>Partnership</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="textarea-input">Nachricht</label>
+        <textarea
+          name="textarea-input"
+          required
+          id="textarea-input"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <div>
+        <input class="btn" type="submit" value="versenden" />
+      </div>
+    </form>
+  </body>
+</html>
